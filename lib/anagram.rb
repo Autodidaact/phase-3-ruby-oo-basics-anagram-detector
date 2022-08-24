@@ -1,3 +1,4 @@
+require "pry"
 # Your code goes here!
 class Anagram
     attr_accessor :word, :expression
@@ -13,3 +14,5 @@ class Anagram
         end
     end 
 end
+
+binding.pry
